@@ -9,6 +9,7 @@ function App() {
   const [pokemonData, setPokemonData] = useState([]);
   const [nextURL, setNextURL] = useState("");
   const [prevURL, setPrevURL] = useState("");
+  const [searchName, setSearchName] = useState("");
 
   useEffect(() => {
     const fetchPokemonData = async () => {
