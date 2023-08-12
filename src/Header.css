@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&family=DotGothic16&display=swap");
+
+.header {
+  background-color: #ffd2ff;
+  padding-bottom: 30px;
+  font-family: "Darumadrop One", cursive;
+}
+
+.header h1 {
+  font-size: 68px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.input {
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.input input {
+  width: 200px;
+  line-height: 2;
+}

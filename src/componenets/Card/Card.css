@@ -1,0 +1,27 @@
+.card {
+  background-color: transparent;
+  width: 320px;
+  border: 2px solid #ffd2ff;
+  padding-bottom: 30px;
+  position: relative;
+  z-index: 2;
+  line-height: 2;
+}
+
+.card::after {
+  background-color: #faf6f6;
+  opacity: 0.8;
+  border: 1px solid #ffd2ff;
+  box-shadow: 10px 10px 0px 0px #ffd2ff;
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.cardImg img {
+  width: 60%;
+}
