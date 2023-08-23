@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+#ポケモン図鑑アプリ
+
+今後は名前検索機能の実装をしたい
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
